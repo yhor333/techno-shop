@@ -1,0 +1,13 @@
+.userPanel {
+  display: flex;
+  height: auto;
+  width: 90px;
+
+  &__person {
+    margin-right: 2rem;
+    width: 30px;
+  }
+  &__cart {
+    width: 30px;
+  }
+}

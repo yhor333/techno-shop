@@ -1,11 +1,13 @@
+import { BrowserRouter } from 'react-router-dom';
+
 import { Header } from './app/shared-modules/header';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <BrowserRouter>
       <Header />
-    </div>
+    </BrowserRouter>
   );
-}
+};
 
 export default App;
